@@ -1,0 +1,52 @@
+.maintenance-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .maintenance-page img {
+    max-width: 100%;
+    max-height: 60vh;
+  }
+  
+  .maintenance-page.timer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .maintenance-page h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .maintenance-page  p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+
+  @media only screen and (max-width:600px){
+    .maintenance-page {
+        height: 100vh;
+      }
+    .maintenance-page img {
+        max-width: 80%;
+        max-height: 50vh;
+      }
+      .maintenance-page h2 {
+        font-size: 18px;
+        margin: 20px 0;
+        color: black;
+      }
+      
+      .maintenance-page  p {
+        font-size: 13px;
+        margin: 10px 0;
+        color: black;
+      }
+  }

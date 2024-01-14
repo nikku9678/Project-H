@@ -1,0 +1,8 @@
+signUp:-
+localhost:8000/user/signup
+
+login:-
+localhost:8000/user/login
+
+Doctor
+localhost:8000/docter

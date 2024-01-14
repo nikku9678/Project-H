@@ -1,0 +1,75 @@
+.doc-list{
+    position: relative;
+    top: 45px;
+    width: 90%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    border-radius: 10px;
+    
+}
+.doc-list h2{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.doc-list .doc-list-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem ;
+    padding-bottom: 40px;
+}
+.doc-list .doc-list-info .doc-list-a{
+    padding: 10px 20px;
+    max-width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.doc-list .doc-list-info .doc-list-a .doc-a{
+    width: 20%;
+}
+span{
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.doc-list .doc-list-info .doc-list-a .doc-info{
+    width: 90%;
+    /* border: 2px solid red; */
+      
+}
+.doc-list .doc-list-info .doc-list-a .doc-info .avail{
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 15px 5px 2px;
+    width: fit-content;
+    color: white;
+}
+.doc-list .doc-list-info .doc-list-a .doc-a img{
+    width: 60px;
+    margin: 20px auto;
+    border-radius: 50%;
+    display: flex; 
+  justify-content: center;
+}
+.doc-list .doc-list-info .doc-list-a .doc-info p{
+   
+    color: black;
+    padding: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight:400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+/* @media only screen and (max-width:400px){
+    
+} */

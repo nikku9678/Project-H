@@ -1,0 +1,14 @@
+/* Styles for the hero section */ .hero-section { display: flex; flex-direction:
+column; align-items: center; padding: 20px; } /* Styles for the hero intro text
+*/ .hero-text { text-align: center; font-size: 18px; line-height: 1.5;
+margin-bottom: 20px; } /* Styles for the home video container */
+.home-video-container { position: relative; width: 100%; padding-bottom: 56.25%;
+/* 16:9 aspect ratio for responsive video */ margin-bottom: 20px; } /* Styles
+for the embedded video */ .home-video { position: absolute; top: 0; left: 0;
+width: 100%; height: 100%; } /* Media queries for responsiveness */ @media only
+screen and (min-width: 768px) { /* Increase font size for larger screens */
+.hero-text { font-size: 24px; } } @media only screen and (min-width: 1024px) {
+/* Adjust layout for larger screens */ .hero-section { flex-direction: row;
+justify-content: space-between; align-items: flex-start; } .hero-text {
+text-align: left; width: 50%; font-size: 20px; margin-bottom: 0; }
+.home-video-container { width: 40%; padding-bottom: 0; } }

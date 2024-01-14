@@ -1,0 +1,57 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  font-size: 18px;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}
+
+.arrow{
+   width: 60px;
+   height: 60px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .scroll-to-top {
+    bottom: 70px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .arrow{
+   width: 38px;
+   height: 38px;
+}
+}
+
+
+/* 
+import arrow from "../../assets/arrow.png"
+<img className='arrow' src={arrow}/> 
+
+*/

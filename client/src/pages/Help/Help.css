@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.help{
+    width: 100%;
+    position: relative;
+    top: 30px;
+    margin-top: 35px;
+    /* border: 2px solid red; */
+   padding-bottom: 60px;
+}
+.help .help-first{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 20px;
+    background-color: #6582da;
+    padding: 60px 0;
+}
+.help .help-first h2{
+
+   font-size: 18px;
+   font-weight: 400;
+   margin: 10px 0;
+  
+}
+.help .help-first input{
+    width: 600px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.help .help-second{
+    width: 80%;
+    /* border: 2px solid rgb(153, 255, 0); */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    align-items: center;
+    gap: 20px 60px ;
+    margin: 20px auto;
+    /* flex-wrap: wrap; */
+}
+.help-card{
+    width:260px;
+    display: flex;
+    /* height: 200px; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+.help-card p{
+   margin: 0 10px;
+  padding: 0;
+  font-size: 15px;
+  color: black;
+}
+.help-card img{
+    width:100%;
+    /* height: auto; */
+    /* margin-top: 10px; */
+    border-radius: 10px 10px 0 0;
+}
+.help-card h2{
+    margin: 10px 0;
+    color: black;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:600px){
+    .help .help-first input{
+        width: 300px;
+    }
+    .help .help-second{
+        width: 100%;
+        grid-template-columns: auto auto;
+
+    }
+    .help-second .card{
+        width: 100%;
+
+    }
+}
+@media only screen and (min-width:900px){
+    
+    .help .help-second{
+        width: 100%;
+        grid-template-columns: auto auto auto;
+
+    }
+    .help .help-first input{
+        width: 300px;
+    }
+    
+}
+@media only screen and (min-width:300px) and (max-width:599px){
+    .help .help-second{
+        width: 100%;
+        grid-template-columns: auto;
+
+    }
+    .help .help-first input{
+        width: 200px;
+    }
+}

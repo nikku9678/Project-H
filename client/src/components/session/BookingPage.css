@@ -1,0 +1,166 @@
+.booking-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  font-size: 14px;
+}
+
+.heading_Name {
+  padding: 10px 20px;
+}
+
+.booking-session-consent {
+  display: block;
+  width: 80%;
+  padding: 20px 30px;
+  margin-bottom: 15px;
+  background-color: white;
+  color: black;
+}
+
+.booking-session-consent p{
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.booking-session-consent p,
+.booking-session-consent ul {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.booking-session-consent ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.booking-session-consent ul ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.booking-session-consent label {
+  display: block;
+  margin-top: 10px;
+}
+
+.booking-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-session-button {
+  display: flex;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.book-session-button-disabled {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: not-allowed;
+}
+
+.booking-popup,
+.booking-confirmation-popup {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-popup h3,
+.booking-confirmation-popup h3 {
+  margin-top: 0;
+}
+
+.booking-popup form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.booking-popup form label {
+  display: flex;
+  align-items: left;
+  margin-top: 20px;
+}
+
+.booking-popup textarea {
+  width: 80%;
+  height: 60px;
+  margin-left: 10px;
+  border: 1px solid grey;
+  resize: vertical;
+}
+
+.booking-popup label input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.buttons-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.booking-popup .cancel-button{
+  padding: 0 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  /* height: 25px; */
+  /* border: 2px solid green; */
+  display: inline-block;
+  margin-right: 10px;
+  /* background-color: red; */
+}
+
+
+.submit-button-disabled{
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: not-allowed;
+}
+
+.booking-confirmation-popup p {
+  margin-bottom: 20px;
+}
+
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: fit-content;
+  /* border: 2px solid green; */
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: max-content;
+  margin-right: 10px;
+}

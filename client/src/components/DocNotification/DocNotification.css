@@ -1,0 +1,126 @@
+.nf{
+    position: relative;
+    top: 45px;
+    width: 90%;
+    margin: 90px auto;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    border-radius: 10px;
+    
+    
+}
+
+.nf .nf-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem ;
+    padding-bottom: 40px;
+}
+.nf .nf-list .nf-list-a{
+    padding: 10px 20px;
+    max-width: 400px;
+    height: 180px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.nf .nf-list .nf-list-a .nf-img{
+    width: 20%;
+}
+.nf .nf-list .nf-list-a .nf-img img{
+    width: 50px;
+}
+span{
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nf .nf-list .nf-list-a .nf-info{
+    width: 90%;
+    /* border: 2px solid red; */
+      
+}
+.nf .nf-list .nf-list-a .nf-info .avail{
+    /* background-color: red; */
+    border-radius: 10px;
+    padding: 5px 15px 5px 2px;
+    width: fit-content;
+    color: white;
+}
+.nf .nf-list .nf-list-a .nf-img img{
+    width: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    display: flex; 
+  justify-content: center;
+}
+.nf .nf-list .nf-list-a .nf-info p{
+   
+    color: black;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+    font-weight:400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.nf-btn{
+    margin-top: 40px;
+    width: fit-content;
+    
+    /* border: 2px solid red; */
+}
+.nf-btn button{
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    /* border: 2px solid red; */
+}
+.nf-btn .join{
+    background-color: green;
+}
+.nf-btn .reject{
+    background-color: red;
+}
+
+.no-data{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:200px) and(max-width:767px){
+    .nf-btn{
+        margin-top: 20px;
+        width: fit-content;
+        
+        /* border: 2px solid red; */
+    }
+}
+@media only screen and (max-width:400px){
+    .nf-btn{
+        display: flex;
+        margin-top: 20px;
+        /* border:2px solid green */
+    }
+    .nf-btn button{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:992px){
+    .nf-btn{
+  
+        margin-top: 30px;
+        /* border:2px solid green */
+    }
+ 
+}

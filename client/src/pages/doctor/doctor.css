@@ -1,0 +1,30 @@
+.doctor-list-container{
+      /* background-image: url("../../assets/bg.jpg"); */
+      overflow-x: hidden;
+}
+.doctorList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2em;
+    padding: 3rem;
+    min-width: 300px;
+    /* border: 2px solid green; */
+}
+p{
+    font-size:xx-large;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
+@media screen and (max-width:1200px) {
+    .doctorList{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:900px) {
+    .doctorList{
+        grid-template-columns: 1fr;
+    }
+}

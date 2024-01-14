@@ -1,0 +1,2 @@
+bg-dark-blue :- #0b2548
+bg-button :- #1b569c

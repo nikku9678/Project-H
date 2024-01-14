@@ -1,0 +1,489 @@
+/* Base styles that apply to all screen sizes */
+.card-container2{
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    
+}
+.card-container3 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 10px 5px;
+    /* border: 2px solid yellow; */
+    border-radius: 15px;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0;
+    border-radius: 15px;
+  }
+  
+  .doc-card-left {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 2px 5px;
+   /* justify-content: center; */
+   align-items: center;
+    /* border: 2px solid green; */
+    padding-top: 30px;
+  }
+  .doc-name{
+    margin:15px 0;
+    text-align: center;
+  }
+  .doc-img {
+    width: 50px;
+    height: 50px;
+    /* height: 80px; */
+    border-radius: 50%;
+    /* margin-right: 20px; */
+  }
+  
+  .doc-info {
+    /* margin-top: -15px; */
+    width: 80%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+  }
+  .doc-info span{
+    margin: 3px;
+  }
+  .available{
+    background-color: red;
+    width: fit-content;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+  }
+  .doc-buttons {
+    display: flex;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    margin-left: 0;
+  }
+  .doc-buttons button {
+   border-radius: 5px;
+  }
+  .doc-rate{
+    
+    color: black;
+
+  }
+  .doc-buttons button {
+    padding: 3px 20px;
+    margin-right: 5px;
+  }
+  .doc-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    /* border: 2px solid black; */
+    padding-bottom: 10px;
+  }
+  button{
+    margin: 5px 0;
+  }
+  
+  /* Media Queries for Responsive Styles */
+  
+  /* Tablets and larger screens */
+  
+  
+  /* Large screens and desktops */
+  @media screen and (max-width: 992px) {
+    .card-container2{
+      max-width: 400px;
+      border-radius: 15px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .card-container3 {
+      display: flex;
+      width: 95%;
+      flex-direction: row;
+      padding: 10px 5px;
+      /* border: 2px solid yellow; */
+      border-radius: 15px;
+      justify-content: center;
+      /* align-items: center; */
+      margin: 0;
+      border-radius: 15px;
+    }
+    
+    .doc-card-left {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      padding: 2px 5px;
+     /* justify-content: center; */
+     align-items: center;
+      /* border: 2px solid green; */
+      padding-top: 30px;
+    }
+    .doc-name{
+      margin:15px 0;
+      text-align: center;
+    }
+    .doc-img {
+      width: 50px;
+      height: 50px;
+      /* height: 80px; */
+      border-radius: 50%;
+      /* margin-right: 20px; */
+    }
+    
+    .doc-info {
+      /* margin-top: -15px; */
+      width: 80%;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid black; */
+    }
+    .doc-info span{
+      margin: 5px;
+    }
+    .available{
+      background-color: red;
+      width: fit-content;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 15px;
+    }
+    .doc-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .doc-buttons buto{
+      display: flex;
+      justify-content: center;
+      
+      margin-top: 10px;
+    }
+    .doc-rate{
+      /* background-color: green; */
+      width: fit-content;
+      /* padding: 10px 15px; */
+      color: black;
+      border-radius: 15px;
+
+    }
+    .doc-buttons button {
+      padding: 10px 20px;
+      margin-right: 10px;
+    }
+    .doc-buttons{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0;
+      /* border: 2px solid black; */
+      padding-bottom: 10px;
+    }
+    button{
+      margin: 10px 0;
+      border-radius: 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card-container2{
+      max-width: 400px;
+      border-radius: 15px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .card-container3 {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      padding: 8px 5px;
+      /* border: 2px solid yellow; */
+      border-radius: 15px;
+      justify-content: center;
+      /* align-items: center; */
+      margin: 0;
+      border-radius: 15px;
+    }
+    
+    .doc-card-left {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      padding: 2px 5px;
+     /* justify-content: center; */
+     align-items: center;
+      /* border: 2px solid green; */
+      padding-top: 0;
+    }
+    .doc-name{
+      margin:15px 0;
+      text-align: center;
+    }
+    .doc-img {
+      width: 50px;
+      height: 50px;
+      /* height: 80px; */
+      border-radius: 50%;
+      /* margin-right: 20px; */
+    }
+    
+    .doc-info {
+      /* margin-top: -15px; */
+      width: 80%;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid black; */
+    }
+    .doc-info span{
+      margin: 5px;
+    }
+    .available{
+      background-color: red;
+      width: fit-content;
+      padding: 5px 15px;
+      border-radius: 15px;
+    }
+    .doc-buttons {
+      display: flex;
+      justify-content: flex-start;
+      /* flex-wrap: wrap; */
+      margin-top: 5px;
+    }
+    .doc-rate{
+      /* background-color: green; */
+      color: black;
+      width: fit-content;
+      /* padding: 5px 15px; */
+      
+      /* border-radius: 15px; */
+    }
+    .doc-buttons button {
+      padding: 5px 20px;
+      margin-right: 5px;
+      border-radius: 5px;
+    }
+    .doc-buttons{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0;
+      /* border: 2px solid black; */
+      padding-bottom: 0;
+    }
+    button{
+      margin: 5px 0;
+    }
+  }
+  /* Extra-large screens and larger desktops */
+  @media screen and (max-width: 600px) {
+    .card-container2{
+      max-width: 400px;
+      border-radius: 15px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .card-container3 {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      padding: 5px 5px;
+      /* border: 2px solid yellow; */
+      border-radius: 15px;
+      justify-content: center;
+      /* align-items: center; */
+      margin: 0;
+      border-radius: 15px;
+    }
+    
+    .doc-card-left {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      padding: 2px 5px;
+     /* justify-content: center; */
+     align-items: center;
+      /* border: 2px solid green; */
+      padding-top: 20px;
+    }
+    .doc-name{
+      margin:15px 0;
+      text-align: center;
+    }
+    .doc-img {
+      width: 50px;
+      height: 50px;
+      /* height: 80px; */
+      border-radius: 50%;
+      /* margin-right: 20px; */
+    }
+    
+    .doc-info {
+      /* margin-top: -15px; */
+      width: 80%;
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid black; */
+    }
+    .doc-info span{
+      margin: 5px;
+    }
+    .available{
+      background-color: red;
+      width: fit-content;
+      padding: 5px 15px;
+      border-radius: 15px;
+    }
+    .doc-buttons {
+      display: flex;
+      flex-direction: row;
+      /* justify-content: f0; */
+      /* flex-wrap: wrap; */
+      margin-top: 5px;
+      font-size: 13px;
+      /* border: 2px solid green; */
+    }
+    .doc-rate{
+      /* background-color: green; */
+      width: fit-content;
+      /* padding: 5px 15px; */
+      color: black;
+      border-radius: 15px;
+    }
+    .doc-buttons button {
+      padding: 5px 10px;
+      /* margin-right: 10px; */
+      font-size: 13px;
+      border-radius: 5px;
+    }
+    .doc-buttons{
+      display: flex;
+      justify-content: center;
+      /* flex-wrap: wrap; */
+      margin-top: 0;
+      /* border: 2px solid black; */
+      padding-bottom: 10px;
+    }
+    button{
+      margin: 5px 0;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .card-container2{
+      max-width: 500px;
+      border-radius: 15px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .card-container3 {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      padding: 5px 0;
+      /* border: 2px solid yellow; */
+      border-radius: 15px;
+      justify-content: center;
+      /* align-items: center; */
+      margin: 0;
+      border-radius: 15px;
+    }
+    
+    .doc-card-left {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      
+     /* justify-content: center; */
+     align-items: center;
+      /* border: 2px solid green; */
+      padding-top: 20px;
+    }
+    .doc-name{
+      margin:15px 0;
+      text-align: center;
+    }
+    .doc-img {
+      width: 50px;
+      height: 50px;
+      /* height: 80px; */
+      border-radius: 50%;
+      /* margin-right: 20px; */
+    }
+    
+    .doc-info {
+      /* margin-top: -15px; */
+      width: 80%;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid black; */
+    }
+    .doc-info span{
+      margin: 5px;
+    }
+    .available{
+      background-color: red;
+      width: fit-content;
+      padding: 5px 15px;
+      border-radius: 15px;
+    }
+    .doc-buttons {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .doc-rate{
+      /* background-color: green; */
+      width: fit-content;
+      /* padding: 5px 15px; */
+      color:black;
+      border-radius: 15px;
+    }
+    .doc-buttons button {
+      padding: 8px 20px;
+      border-radius: 0;
+      /* margin-right: 10px; */
+      border-radius: 5px;
+    }
+    .doc-buttons{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0;
+      /* border: 2px solid black; */
+      padding-bottom: 10px;
+    }
+    button{
+      margin: 5px 0;
+    }
+    .doc-chat,.doc-book-session{
+      padding: 3px 15px;
+    }
+  }
+  

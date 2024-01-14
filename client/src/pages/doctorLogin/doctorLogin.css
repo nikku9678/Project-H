@@ -1,0 +1,236 @@
+.docLog-container2{
+    position: relative;
+    width: 80%;
+    top: 50px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 30px auto;
+    /* position: relative; */
+    flex-direction: row;
+    font-family: "Roboto";
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+.docLog-container2 .docLogin-left{
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto",sans-serif;
+    font-size: larger;
+    /* border: 2px solid green; */
+}
+.docLog-container2 .docLogin-img {    
+    /* margin-left: 5em; */
+    width: 40%;
+    /* height: max-content; */
+    /* border: 2px  solid slateblue; */
+}
+
+.docLog-container2 .docLog-right{
+    width: 50%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+.docLog-container2 .docLog-right h2{
+   
+font-size: 2rem;
+/* border: 2px solid black; */
+color: black;
+margin-top: 50px;
+padding: 10px;
+    align-items: center;
+}
+.docLog-container2 .docLog-right span{
+font-size: 20px;
+/* border: 2px solid black; */
+color: black;
+margin: 15px;
+padding: 10px;
+    align-items: center;
+}
+.docLog-container2 .docLog-card{
+    width: 80%;
+     display: flex;
+     margin-top: 0;
+     background-color: rgb(11,37,72);
+     justify-content: center;
+     /* border: 2px solid black; */
+     border-radius: 15px;
+}
+.docLog-card .docLog-form{
+    width: 80%;
+    margin: 20px;
+    /* background-color: red; */
+}
+
+.docLog-card input {
+  border: 1px solid grey;
+  padding: 10px;
+}
+.docLog-card button {
+    padding: 10px 25px;
+}
+
+@media only screen and  (min-width:200px) and (max-width:767px){
+    .docLog-container2{
+        width: 95%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        font-family: "Roboto";
+        margin-bottom: 80px;
+        padding-bottom: 50px;
+        /* border: 2px solid red; */
+        border-radius: 10px;
+    }
+    .docLog-container2 .docLogin-left{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto",sans-serif;
+        font-size: larger;
+        margin:  40px auto;
+        /* border: 2px solid green; */
+    }
+    .docLog-container2.docLogin-img {    
+        margin-left: 0;
+        max-width: 150px;
+        /* margin: auto; */
+        /* height: max-content; */
+        /* border: 2px  solid slateblue; */
+    }
+   
+    .docLog-container2 .docLog-right{
+        width: 100%;
+        margin: -15px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .docLog-container2 .docLog-right h2{
+       text-align: center;
+       font-size: 22px;
+   
+    }
+    .docLog-container2 .docLog-right span{
+    font-size: 15px;
+    /* border: 2px solid black; */
+    color: black;
+    margin: 15px;
+    padding: 10px;
+        align-items: center;
+    }
+    .docLog-container2 .docLog-card{
+        width: 90%;
+         display: flex;
+         margin-top: 0;
+         background-color: rgb(11,37,72);
+         justify-content: center;
+         /* border: 2px solid black; */
+         border-radius: 15px;
+    }
+    .docLog-card .docLog-form{
+        width: 100%;
+        margin: 20px;
+        /* background-color: red; */
+    }
+    
+    .docLog-container2 .docLog-card input {
+        width: 100%;
+      border: 1px solid grey;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .docLog-card button {
+        padding: 10px 25px;
+    }
+}
+@media only screen and  (min-width:768px) and (max-width:991px){
+    .docLog-container2{
+        width: 95%;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        font-family: "Roboto";
+        margin-bottom: 80px;
+        padding-bottom: 50px;
+        /* border: 2px solid red; */
+        border-radius: 10px;
+    }
+    .docLog-container2 .docLogin-left{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto",sans-serif;
+        font-size: larger;
+        margin:  40px auto;
+        /* border: 2px solid green; */
+    }
+    .docLog-container2.docLogin-img {    
+        margin-left: 0;
+        max-width: 150px;
+        /* margin: auto; */
+        /* height: max-content; */
+        /* border: 2px  solid slateblue; */
+    }
+   
+    .docLog-container2 .docLog-right{
+        width: 80%;
+        margin: -15px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .docLog-container2 .docLog-right h2{
+       text-align: center;
+       font-size: 22px;
+   
+    }
+    .docLog-container2 .docLog-right span{
+    font-size: 15px;
+    /* border: 2px solid black; */
+    color: black;
+    margin: 15px;
+    padding: 10px;
+        align-items: center;
+    }
+    .docLog-container2 .docLog-card{
+        width: 90%;
+         display: flex;
+         margin-top: 0;
+         background-color: rgb(11,37,72);
+         justify-content: center;
+         /* border: 2px solid black; */
+         border-radius: 15px;
+    }
+    .docLog-card .docLog-form{
+        width: 100%;
+        margin: 20px;
+        /* background-color: red; */
+    }
+    
+    .docLog-container2 .docLog-card input {
+        width: 100%;
+      border: 1px solid grey;
+      padding: 10px;
+    }
+    .docLog-card button {
+        padding: 10px 25px;
+    }
+}

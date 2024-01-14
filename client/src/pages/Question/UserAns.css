@@ -1,0 +1,41 @@
+/* Styling for mobile screens */
+.user-ans{
+  position: relative;
+  top: 50px;
+  width: 80%;
+  margin:30px auto;
+}
+ 
+.user-ans form h2{ 
+  margin: 20px;
+  color: black;
+  text-align: center;
+}
+ 
+.user-ans form{
+  width: 100%;
+}
+.user-ans form .ques{
+  width: 80%;
+  /* border: 2px solid black; */
+}
+
+@media only screen and (max-width:767px){
+  .user-ans{
+    top: 45px;
+    width: 95%;
+  }
+  .ques label{
+    font-size: 13px;
+  }
+  .user-ans h2{
+    margin:10px;
+    font-size: 16px;
+  }
+  .user-ans input{
+   width: 100%;
+  }
+  .user-ans button{
+   font-size: 14px;
+  }
+}

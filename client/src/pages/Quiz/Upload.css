@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+  .upload {
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    /* border: 2px solid yellow; */
+  }
+  .upload h2 {
+    font-size: 16px;
+    color: black;
+  }
+  .upload input {
+    color: black;
+  }
+  .upload .generate {
+    width: fit-content;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: white;
+  }
+  .upload .generate p {
+    font-size: 18px;
+
+    color: black;
+  }
+  .upload .process p {
+    font-size: 18px;
+
+    color: white;
+  }
+}

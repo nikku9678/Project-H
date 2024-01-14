@@ -1,0 +1,32 @@
+.session-list {
+    display: flex;
+    justify-content: center;
+}
+
+.session-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.session-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.session-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.session-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.session-card a:hover {
+    text-decoration: underline;
+}

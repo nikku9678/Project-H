@@ -1,0 +1,47 @@
+.add-doc{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 55px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+.add-doc h2{
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.add-doc .form-group{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.add-doc .form-group label{
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+}
+.add-doc .form-group input{
+    width: 100%;
+}
+.doc-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.add-doc button{
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:600px){
+    .add-doc{
+        width: 85%;
+    }
+}

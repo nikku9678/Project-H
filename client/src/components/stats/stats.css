@@ -1,0 +1,26 @@
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-form {
+    margin-top: 10rem;
+    background-color: azure;
+    border-radius: 10px;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+}
+
+.graph {
+    background-color: red;
+    height: 20rem;
+    width: 20rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}

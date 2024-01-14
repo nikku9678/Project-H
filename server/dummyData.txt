@@ -1,0 +1,100 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "pass": "password123",
+    "phone": "123-456-7890"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "pass": "pass123",
+    "phone": "987-654-3210"
+  },
+  {
+    "name": "Alex Johnson",
+    "email": "alexjohnson@example.com",
+    "pass": "pass123",
+    "phone": "555-123-4567"
+  }
+]
+
+
+
+const psychologists = [
+  {
+    id: 1,
+    about: "Experienced psychologist specializing in anxiety and depression.",
+    language: "English",
+    name: "Dr. Emily Johnson",
+    email: "emily.johnson@example.com",
+    password: "password123",
+    phone: "555-123-4567",
+    feePerMin: 2.5,
+    feePerMinSession: 100,
+    photo: "psychologist1.jpg",
+    rating: 4.2,
+    timings: "9AM-5PM Weekdays",
+    available: true,
+  },
+  {
+    id: 2,
+    about: "Couples and relationship therapist with 10+ years of experience.",
+    language: "English",
+    name: "Dr. Michael Anderson",
+    email: "michael.anderson@example.com",
+    password: "password456",
+    phone: "555-987-6543",
+    feePerMin: 3.0,
+    feePerMinSession: 150,
+    photo: "psychologist2.jpg",
+    rating: 4.8,
+    timings: "10AM-6PM Weekdays",
+    available: true,
+  },
+  {
+    id: 3,
+    about: "Specializes in child and adolescent psychology.",
+    language: "English, Spanish",
+    name: "Dr. Maria Sanchez",
+    email: "maria.sanchez@example.com",
+    password: "password789",
+    phone: "555-555-5555",
+    feePerMin: 2.0,
+    feePerMinSession: 80,
+    photo: "psychologist3.jpg",
+    rating: 4.5,
+    timings: "9AM-7PM Weekdays",
+    available: true,
+  },
+  {
+    id: 4,
+    about: "Expert in trauma and PTSD therapy.",
+    language: "English",
+    name: "Dr. Robert Thompson",
+    email: "robert.thompson@example.com",
+    password: "passwordabc",
+    phone: "555-111-2222",
+    feePerMin: 2.8,
+    feePerMinSession: 120,
+    photo: "psychologist4.jpg",
+    rating: 4.0,
+    timings: "8AM-4PM Weekdays",
+    available: true,
+  },
+  {
+    id: 5,
+    about: "Provides counseling for individuals dealing with stress and burnout.",
+    language: "English, French",
+    name: "Dr. Sophie Martin",
+    email: "sophie.martin@example.com",
+    password: "passwordxyz",
+    phone: "555-444-3333",
+    feePerMin: 2.4,
+    feePerMinSession: 90,
+    photo: "psychologist5.jpg",
+    rating: 4.6,
+    timings: "10AM-8PM Weekdays",
+    available: true,
+  },
+];

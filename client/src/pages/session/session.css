@@ -1,0 +1,60 @@
+.session-list{
+    position: relative;
+    top: 45px;
+    width: 90%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    border-radius: 10px;
+    
+}
+.session-list h2{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.session-list .session-list-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem ;
+    padding-bottom: 40px;
+}
+.session-list .session-list-info .session-list-a{
+    padding: 10px 20px;
+    max-width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+span{
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.session-list .session-list-info .session-list-a .session-info{
+    width: 90%;
+    /* border: 2px solid red; */
+      
+}
+
+.session-list .session-list-info .session-list-a .session-info p{
+   
+    color: black;
+    padding: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight:400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+/* @media only screen and (max-width:400px){
+    
+} */
+

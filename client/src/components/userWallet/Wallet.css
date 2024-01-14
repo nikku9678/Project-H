@@ -1,0 +1,93 @@
+/* QRCodePage.css */
+
+.user-wallet {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 60px auto;
+    height: 400px;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 65px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .user-wallet-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    color:black;
+    /* border: 2px solid green; */
+  }
+  .user-wallet-left h3{
+    color: black;
+    font-size: 25px;
+
+  }
+  .user-wallet-left p{
+    color: black;
+    font-size: 18px;
+
+  }
+  .user-send-btn{
+    width: fit-content;
+  }
+  button{
+    width:fit-content;
+    padding: 15px 35px;
+  }
+  .user-wallet-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* border-radius: 10px; */
+  }
+  .user-wallet-right p{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .user-wallet-right img{
+    margin-top: 20px;
+    justify-content: center;
+   max-width: 200px;
+    margin: auto;
+}
+  /* Media Queries */
+  
+  @media only screen and (min-width:200px) and (max-width: 768px) {
+    .user-wallet {
+      flex-direction: column;
+      width: 90%;
+      top: 15px;
+      height: fit-content;
+    }
+    .user-wallet-left{
+        justify-content: center;
+        width: 100%;
+    }
+    .user-wallet-right{
+        justify-content: center;
+        width: 100%;
+       
+    }
+    .user-wallet-right img{
+        justify-content: center;
+       max-width: 200px;
+        margin: auto;
+    }
+    .user-wallet-right p{
+      font-size: 15px;
+    }
+}
+    
+  

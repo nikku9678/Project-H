@@ -1,0 +1,111 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.main-add-ques{
+  position: relative;
+  top: 80px;
+}
+.add-ques{
+
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.add-ques button{
+margin: 0 10px;
+}
+.ques-set{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width:fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:2px solid blue;
+  background-color: aqua;
+  border-radius: 10px;
+  height: 200px;
+}
+
+button{
+  border-radius: 10px;
+}
+.ques-list{
+  width: 80%;
+  margin: auto;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+
+}
+.ques-list .list-edit{
+  width: fit-content;
+ /* border: 2px solid white; */
+}
+.ques-list .list-edit button{
+ margin: 5px 10px;
+ padding: 5px 30px;
+ /* border: 2px solid white; */
+ border-radius: 10px;
+}
+.add-cancel button{
+ margin: 8px 10px;
+ padding: 5px 30px;
+ /* border: 2px solid white; */
+ border-radius: 10px;
+}
+
+input{
+  width: 80%;
+}
+.question{
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+.show-ques{
+  
+  border-radius:10px;
+  background-color: white;
+  margin: 10px 0;
+  padding: 5px;
+  color: black;
+  box-sizing: border-box;
+}
+.show-ques p{
+  color: black;
+ 
+}
+
+@media only screen and (max-width:767px){
+  .ques-list{
+    width: 95%;
+  }
+  .ques-set{
+    position: absolute;
+    width:fit-content;
+    top: 40%;
+    left: 0%;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid blue;
+    background-color: aqua;
+    border-radius: 10px;
+    height: 200px;
+  }
+  .add-cancel{
+    flex-direction: row;
+  }
+  .add-ques button{
+    padding: 10px;
+    font-size: 13px;
+    }
+}

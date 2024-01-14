@@ -1,0 +1,148 @@
+#services-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* border: 2px solid red; */
+  font-family: sans-serif;
+}
+
+.cta-heading2 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.cta-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  color: white;
+  /* border: 2px solid yellow; */
+}
+
+.cta-img-container {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  /* border: 2px solid white; */
+}
+
+.cta-img {
+  width: 40%;
+  height: auto;
+  /* border: 2px solid green; */
+}
+
+.cta-intro {
+  display: flex;
+  width: 60%;
+  padding: 1em;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  /* border: 2px solid red; */
+}
+
+.cta-subheading-text {
+  font-weight: lighter;
+  margin-bottom: 1rem;
+  font-size: 2em;
+}
+
+.cta-text {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.cta-chat-button {
+  background-color: #1b569c;
+  font-size: large;
+  padding: 16px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width:200px ) and (max-width:767px){
+  #services-section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .cta-heading2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 55px;
+    text-align: center;
+  }
+  
+  .cta-section {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(11, 37, 72);
+    color: white;
+    /* border: 2px solid yellow; */
+  }
+  .part2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .cta-img-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .cta-img {
+   max-width: 200px;
+    height: auto;
+    /* border: 2px solid green; */
+  }
+  
+  .cta-subheading-text {
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    font-size: 2em;
+  }
+  
+  .cta-text {
+    text-align: justify;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 5px ;
+    /* border: 2px solid black; */
+  }
+  
+  .cta-chat-button {
+    background-color: #1b569c;
+    font-size: large;
+    padding: 16px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+  }
+
+}
+

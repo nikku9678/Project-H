@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define styles for the email */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #005ea5;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      margin: 20px;
+    }
+    .message {
+      background-color: #f7f7f7;
+      padding: 20px;
+    }
+    .signature {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .button {
+      background-color: #005ea5;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="<%= logoPath %>" alt="Your Logo" width="150">
+    <h1>Confirmation of Therapy Session Appointment</h1>
+  </div>
+  <div class="content">
+    <div class="message">
+      <p>Dear <%= userName %>,</p>
+      <p>We are delighted to confirm your forthcoming online therapy session with Dr. <%= docName %>. Your well-being is paramount to us, and we appreciate your trust in our virtual therapy services.</p>
+      <p>We appreciate your choice in our online therapy services and eagerly anticipate assisting you on your path to better mental health. If you require further assistance or information, please feel free to contact us anytime at <%= phoneno %> or <%= supportEmail %>. Our representative will soon reach out to you.</p>
+      <p>Thank you for entrusting us with your well-being.</p>
+      <p>Warm regards,</p>
+      <p>Team Healer-Ji</p>
+    </div>
+    <div class="signature">
+      <img src="<%= signaturePath %>" alt="Your Signature" width="100">
+      <p><a class="button" href="<%= websiteURL %>">Visit Our Website</a></p>
+    </div>
+  </div>
+</body>
+</html>
